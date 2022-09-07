@@ -2,7 +2,7 @@ import _ from "lodash";
 import { Observable } from "rxjs";
 
 const observable = new Observable((subscriber) => {
-  subscriber.next(20);
+  subscriber.next(1);
   subscriber.next(2);
   subscriber.next(3);
   setTimeout(() => {
